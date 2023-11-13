@@ -9,9 +9,9 @@
 
 
 // Enter your WiFi ssid and password
-char ssid[] = "COSMOTE-4945CE"; //Provide your SSID
-const char* password = "pjpHsVVaYvcYdHbE"; // Provide Password
-const char* mqtt_server = "al3qi2b1mxp67-ats.iot.us-east-2.amazonaws.com"; // Relace with your MQTT END point
+char ssid[] = "[YOUR_SSID]"; //Provide your SSID
+const char* password = "[password]"; // Provide Password
+const char* mqtt_server = "[ENDPOINT]-ats.iot.[REGION].amazonaws.com"; // Relace with your MQTT END point
 const int   mqtt_port = 8883;
 const unsigned int MODULE_RELAY_ON = LOW;
 const unsigned int MODULE_RELAY_OFF = HIGH;
